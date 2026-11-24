@@ -100,6 +100,22 @@ h1, h2, h3, p, figure { margin: 0; }
 .copyright { color: #6a7782; }
 :focus-visible { outline: 2px solid var(--blue); outline-offset: 3px; }
 
+.policy-main { padding: 48px 0 64px; }
+.policy-heading { padding-bottom: 25px; border-bottom: 1px solid var(--line); }
+.policy-heading h1 { font-size: clamp(30px, 4vw, 40px); font-weight: 620; letter-spacing: -1px; line-height: 1.2; }
+.policy-heading p { margin-top: 9px; color: var(--muted); font-size: 13px; }
+.policy-content { max-width: 760px; padding-top: 25px; }
+.policy-content section + section { margin-top: 26px; }
+.policy-content h2 { margin-bottom: 7px; font-size: 19px; font-weight: 610; letter-spacing: -.3px; }
+.policy-content p, .policy-content li { color: var(--muted); font-size: 13px; }
+.policy-content p + p { margin-top: 9px; }
+.policy-content ul { margin: 8px 0 0; padding-left: 21px; }
+.policy-content li + li { margin-top: 5px; }
+.policy-content a { color: #315d78; text-decoration: underline; text-decoration-color: #bac8d1; text-underline-offset: 2px; }
+.policy-content a:hover { color: var(--blue); }
+.policy-back { display: inline-flex; margin-top: 31px; color: #315d78; font-size: 13px; }
+.policy-back:hover { color: var(--blue); }
+
 @media (max-width: 680px) {
   html { scroll-padding-top: 65px; }
   .container { width: calc(100% - 36px); }
@@ -130,6 +146,7 @@ h1, h2, h3, p, figure { margin: 0; }
   .download-card .button { align-self: stretch; }
   .footer-inner { padding-block: 15px; flex-wrap: wrap; }
   .footer-links { gap: 13px; }
+  .policy-main { padding: 36px 0 48px; }
 }
 
 @media (max-width: 370px) {

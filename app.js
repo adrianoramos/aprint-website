@@ -71,7 +71,8 @@ const translations = {
     runtimeLink: "Baixar runtime ↗",
     allReleases: "Todas as versões",
     footerGithub: "GitHub",
-    footerLicense: "Licença GPL-3.0"
+    footerLicense: "Licença GPL-3.0",
+    footerPrivacy: "Política de privacidade"
   },
   en: {
     skip: "Skip to content",
@@ -133,7 +134,8 @@ const translations = {
     runtimeLink: "Download runtime ↗",
     allReleases: "All releases",
     footerGithub: "GitHub",
-    footerLicense: "GPL-3.0 license"
+    footerLicense: "GPL-3.0 license",
+    footerPrivacy: "Privacy policy"
   },
   es: {
     skip: "Saltar al contenido",
@@ -195,7 +197,8 @@ const translations = {
     runtimeLink: "Descargar runtime ↗",
     allReleases: "Todas las versiones",
     footerGithub: "GitHub",
-    footerLicense: "Licencia GPL-3.0"
+    footerLicense: "Licencia GPL-3.0",
+    footerPrivacy: "Política de privacidad"
   }
 };
 
